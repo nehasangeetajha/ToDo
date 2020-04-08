@@ -1,0 +1,56 @@
+#container
+{
+    max-width: 1200px;
+    
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#input
+{
+    
+    text-align:center;
+}
+
+input,textarea
+{
+    margin: 10px;
+}
+
+
+#data{
+   
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    background-image: url(https://th.bing.com/th/id/OIP.p8PJCmYzcrxg_A4NuWLeFQHaDL?pid=Api&rs=1);
+    padding: 18px 15px;
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    width: 300px;
+    margin: 20px;
+}
+.card:hover{
+    background: black;
+    color: white;
+    width: 28%;
+}
+
+button:hover
+{
+    padding: 5px;
+  background: #d9d9d9;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  border-radius: 0;
+    cursor: pointer;
+}
